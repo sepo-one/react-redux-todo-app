@@ -9,7 +9,7 @@ module.exports = {
             { 
                 test: /\.jsx?$/, 
                 loader: 'babel-loader', 
-                query: {presets: ['react']}, 
+                query: {presets: ['es2015', 'react']},
                 exclude: /node_modules/
             }
         ]
