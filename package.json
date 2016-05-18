@@ -2,11 +2,11 @@
   "name": "redux-react-todo-app",
   "version": "1.0.0",
   "description": "Redux React Todo App",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "express": "^4.13.4",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "redux": "^3.5.2"
