@@ -1,7 +1,7 @@
 var http = require('http');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
-var Body = require('./components/Body');
+var Body = require('./components/Body.jsx');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'})
