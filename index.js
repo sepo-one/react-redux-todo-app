@@ -1,9 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
+import TodoApp from './src/components/TodoApp.js';
 
-render(
-    <div>
-        Redux-React TODO App
-    </div>,
-    document.getElementById('app')
-);
+render(<TodoApp />, document.getElementById('app'));
