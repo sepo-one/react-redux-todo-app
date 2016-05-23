@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "express": "^4.13.4",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",

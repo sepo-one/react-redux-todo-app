@@ -13,9 +13,9 @@ module.exports = React.createClass({
 
     render: function() {
         return (
-            <div class="todo-add">
+            <div className="todo-add">
                 <input
-                    class="todo-add-input"
+                    className="todo-add-input"
                     placeholder="Add Todo item..."
                     value={this.state.value}
                     onChange={(e) => {this.setState({value: e.target.value})}}

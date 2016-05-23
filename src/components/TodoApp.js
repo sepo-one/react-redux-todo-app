@@ -8,7 +8,7 @@ module.exports = React.createClass({
     getInitialState: function() {
         return {
             items: [],
-            visibility: filters.DONE
+            visibility: filters.ALL
         };
     },
 
@@ -30,9 +30,9 @@ module.exports = React.createClass({
 
     render: function() {
         return (
-            <div class="todo-app">
+            <div className="todo-app">
                 <AddTodo addItem={this.addItem} />
-                <ItemsList items={this.state.items} toggleItem={this.toggleItem} />
+                <ItemsList items={this.state.items} toggleItem={this.toggleItem} filter={this.state.visibility} />
                 <VisibilityFilter
                     filter={this.state.visibility}
                     changeVisibility={this.changeVisibility}

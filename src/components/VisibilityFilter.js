@@ -14,7 +14,7 @@ module.exports = React.createClass({
         ];
 
         return (
-            <div class="todo-vfilter">
+            <div className="todo-vfilter">
                 <span>Visibility:</span>
                 &nbsp;
                 <select value={this.props.filter} onChange={(e) => {this.props.changeVisibility(e.target.value)}}>
