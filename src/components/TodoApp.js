@@ -14,7 +14,7 @@ module.exports = React.createClass({
 
     addItem: function(text) {
         var items = this.state.items;
-        items.push({label: text});
+        items.push({label: text, done: false});
         this.setState(items);
     },
 
