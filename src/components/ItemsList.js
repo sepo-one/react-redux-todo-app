@@ -7,7 +7,12 @@ module.exports = React.createClass({
         return (
             <ul class="todo-items-list">
                 {this.props.items.map(function(item, i){
-                    return <Item item={item} key={i} id={i} toggleItem={toggleItem} />;
+                    return <Item
+                        item={item}
+                        key={i}
+                        id={i}
+                        toggleItem={toggleItem}
+                    />;
                 })}
             </ul>
         )
